@@ -2,7 +2,7 @@
 
 import { ethers } from "ethers";
 import Image from "next/image";
-
+declare var window: any
 export default function Home() {
 
   const mintNft = async () => {
